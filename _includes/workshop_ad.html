@@ -30,8 +30,11 @@
         </div>
         <div class="col-md-6">
           <p>
-          <strong>Instructors:</strong>
           {% if page.instructor %}
+          {% comment %}
+
+          <strong>Instructors:</strong>
+          {% endcomment %}
           {{page.instructor | join: ', ' %}}
           {% else %}
           to be announced.
@@ -39,7 +42,9 @@
           </p>
           {% if page.helper %}
           <p>
+          {% comment %}
           <strong>Helpers:</strong>
+          {% endcomment %}
           {{page.helper | join: ', ' %}}
           </p>
           {% endif %}
