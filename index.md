@@ -241,7 +241,9 @@ Display the contact email address set in the configuration file.
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
-<h2 id="code-of-conduct">Speakers</h2>
+
+{% comment%}
+<h2 id="code-of-conduct">CODE OF CONDUCT</h2>
 
 <p>
 Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
@@ -253,6 +255,7 @@ Everyone who participates in Carpentries activities is required to conform to th
   </a>
 </p>
 <hr/>
+{% endcomment %}
 
 
 {% comment %}
@@ -341,6 +344,7 @@ This is the other place where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
+{% comment %}
 
 <h2 id="setup">Setup</h2>
 
@@ -362,6 +366,7 @@ please preview your site before committing, and make sure to run
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+{% endcomment %}
 
 {% comment %}
 For online workshops, the section below provides:
