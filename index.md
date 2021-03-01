@@ -9,9 +9,9 @@ country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see 
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Apr 4, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Apr 9, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2021-04-04      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+startdate: 2021-04-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: [] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: []     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
@@ -90,6 +90,21 @@ displayed if the 'eventbrite' field in the header is not set.
 
 
 <h2 id="general">General Information</h2>
+
+This workshop focuses on the challenges involved in building integrated scalable distributed systems for the healthcare analytics domains. Healthcare analytics offers a unique opportunity to explore scalable system design since there has been a tectonic shift in the ability of medical institutions to capture and store unprecedented amounts of structured and unstructured medical data, including the new ability to stream unstructured medical data in real-time. This shift has already contributed to an ecosystem of Machine Learning (ML) models being trained for a variety of clinical tasks. However, new approaches are required to build systems that can develop and deploy ML models based on distributed healthcare data that must necessarily be accessed with privacy-preserving constraints. 
+
+The goal of this workshop is to attract leading researchers to share and discuss their latest results involving approaches to building scalable platforms for privacy-aware collaborative learning and inference that can be applicable to the domain of healthcare analytics. The scope of the workshop includes (but is not limited to) the following challenges:
+
+<ul>
+  <li> Continuous federated learning with privacy constraints  <li>
+  <li> Scalable and distributed learning  <li>
+  <li> Enforcing soft real-time constraints for streaming data analytics  <li>
+  <li> Specialized heterogeneous hardware for learning and inference  <li>
+  <li> Scalable runtime and resource allocation systems  <li>
+  <li> Productive systems for developing scalable data analytics applications  <li>
+</ul>
+
+We would like this workshop to help contribute new advances to healthcare analytics, which has the potential to result in significant benefits to society, by demonstrating how data can safely (with privacy preservation) be leveraged from distributed sources to improve the accuracy of trained ML models for various clinical tasks, how the models can be deployed in a scalable manner at all levels of the end-to-end system, and how these capabilities can help enable early warnings and rapid responses to hitherto unknown and rapidly evolving threats. Knowledge distilled from multiple sources of data can be embodied in recommendation systems that can run onsite to provide time-critical decision support to physicians. We expect principles that emerge from this workshop to be of interest to other application domains as well. 
 
 {% comment %}
 INTRODUCTION
@@ -319,6 +334,15 @@ of code below the Schedule `<h2>` header below with
 {% endif %}
 {% endcomment %}
 
+<hr/>
+
+<h2> Workshop Organizers </h2>
+<ul>
+<li> Tushar Krishna (Georgia Tech) <li>
+<li> Vivek Sarkar (Georgia Tech) <li>
+<li> Dawn Song (UC Berkeley) <li>
+<li> Jimeng Sun (UIUC) <li>
+<li> Alexey Tumanov (Georgia Tech) <li>
 <hr/>
 
 
