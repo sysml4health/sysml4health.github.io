@@ -96,12 +96,12 @@ This workshop focuses on the challenges involved in building integrated scalable
 The goal of this workshop is to attract leading researchers to share and discuss their latest results involving approaches to building scalable platforms for privacy-aware collaborative learning and inference that can be applicable to the domain of healthcare analytics. The scope of the workshop includes (but is not limited to) the following challenges:
 
 <ul>
-  <li> Continuous federated learning with privacy constraints  <li>
-  <li> Scalable and distributed learning  <li>
-  <li> Enforcing soft real-time constraints for streaming data analytics  <li>
-  <li> Specialized heterogeneous hardware for learning and inference  <li>
-  <li> Scalable runtime and resource allocation systems  <li>
-  <li> Productive systems for developing scalable data analytics applications  <li>
+  <li> Continuous federated learning with privacy constraints  </li>
+  <li> Scalable and distributed learning  </li>
+  <li> Enforcing soft real-time constraints for streaming data analytics  </li>
+  <li> Specialized heterogeneous hardware for learning and inference  </li>
+  <li> Scalable runtime and resource allocation systems  </li>
+  <li> Productive systems for developing scalable data analytics applications  </li>
 </ul>
 
 We would like this workshop to help contribute new advances to healthcare analytics, which has the potential to result in significant benefits to society, by demonstrating how data can safely (with privacy preservation) be leveraged from distributed sources to improve the accuracy of trained ML models for various clinical tasks, how the models can be deployed in a scalable manner at all levels of the end-to-end system, and how these capabilities can help enable early warnings and rapid responses to hitherto unknown and rapidly evolving threats. Knowledge distilled from multiple sources of data can be embodied in recommendation systems that can run onsite to provide time-critical decision support to physicians. We expect principles that emerge from this workshop to be of interest to other application domains as well. 
@@ -338,11 +338,11 @@ of code below the Schedule `<h2>` header below with
 
 <h2> Workshop Organizers </h2>
 <ul>
-<li> Tushar Krishna (Georgia Tech) <li>
-<li> Vivek Sarkar (Georgia Tech) <li>
-<li> Dawn Song (UC Berkeley) <li>
-<li> Jimeng Sun (UIUC) <li>
-<li> Alexey Tumanov (Georgia Tech) <li>
+<li> Tushar Krishna (Georgia Tech) </li>
+<li> Vivek Sarkar (Georgia Tech) </li>
+<li> Dawn Song (UC Berkeley) </li>
+<li> Jimeng Sun (UIUC) </li>
+<li> Alexey Tumanov (Georgia Tech) </li>
 <hr/>
 
 
