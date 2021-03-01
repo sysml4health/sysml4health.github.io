@@ -162,24 +162,7 @@ address.
   If you need a password or other information to access the training,
   the instructor will pass it on to you before the workshop.
 </p>
-{% elsif online == "true_private" %}
-<p id="where">
-  <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
-</p>
-{% endif %}
 
-{% comment %}
-DATE
-
-This block displays the date and links to Google Calendar.
-{% endcomment %}
-{% if page.humandate %}
-<p id="when">
-  <strong>When:</strong>
-  {{page.humandate}}.
-</p>
-{% endif %}
 
 {% comment %}
 SPECIAL REQUIREMENTS
