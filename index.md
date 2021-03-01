@@ -249,7 +249,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Keynote Speakers</h2>
 <ul>
-  <li> Timothy Chou <a href=https://www.linkedin.com/in/timothychou/>[linkedin]</a> </li>
+  <li> Timothy Chou <a href="https://www.linkedin.com/in/timothychou/">[linkedin]</a> </li>
 </ul>
 
 <p>
