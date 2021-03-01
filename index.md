@@ -134,34 +134,6 @@ workshop is only open to people from a particular institution.
 {% include lc/who.html %}
 {% endif %}
 
-{% comment %}
-LOCATION
-
-This block displays the address and links to maps showing directions
-if the latitude and longitude of the workshop have been set.  You
-can use https://itouchmap.com/latlong.html to find the lat/long of an
-address.
-{% endcomment %}
-{% assign begin_address = page.address | slice: 0, 4 | downcase  %}
-{% if page.address == "online" %}
-{% assign online = "true_private" %}
-{% elsif begin_address contains "http" %}
-{% assign online = "true_public" %}
-{% else %}
-{% assign online = "false" %}
-{% endif %}
-{% if page.latitude and page.longitude and online == "false" %}
-<p id="where">
-  <strong>Where:</strong>
-  {{page.address}}.
-</p>
-{% elsif online == "true_public" %}
-<p id="where">
-  <strong>Where:</strong>
-  online at <a href="{{page.address}}">{{page.address}}</a>.
-  If you need a password or other information to access the training,
-  the instructor will pass it on to you before the workshop.
-</p>
 
 
 {% comment %}
