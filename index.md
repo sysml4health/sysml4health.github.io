@@ -12,7 +12,7 @@ longitude: "-1"       # decimal longitude of the workshop venue (use https://www
 humandate: "Apr 9, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-04-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+enddate: 2021-04-09        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: [] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: []     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["first@example.org","second@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -186,48 +186,7 @@ SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements.
 {% endcomment %}
-<p id="requirements">
-  <strong>Requirements:</strong>
-  {% if online == "false" %}
-    Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
-  {% else %}
-    Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
-  {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
-</p>
 
-{% comment %}
-ACCESSIBILITY
-
-Modify the block below if there are any barriers to accessibility or
-special instructions.
-{% endcomment %}
-<p id="accessibility">
-  <strong>Accessibility:</strong>
-{% if online == "false" %}
-  We are committed to making this workshop
-  accessible to everybody. The workshop organizers have checked that:
-</p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-<p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
-</p>
-{% else %}
-  We are dedicated to providing a positive and accessible learning environment for all. Please
-  notify the instructors in advance of the workshop if you require any accommodations or if there is
-  anything we can do to make this workshop more accessible to you.
-</p>
-{% endif %}
 
 {% comment %}
 CONTACT EMAIL ADDRESS
@@ -288,13 +247,14 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Speakers</h2>
-<p>TBD</p>
+<h2 id="surveys">Keynote Speakers</h2>
+<ul>
+  <li> Timothy Chou <a href=https://www.linkedin.com/in/timothychou/>[linkedin]</a> </li>
+</ul>
 
-{% comment %}
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% endcomment %}
+<p>
+  We are actively updating the list. Please stay tuned!
+</p>
 
 <hr/>
 
