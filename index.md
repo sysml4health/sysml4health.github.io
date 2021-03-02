@@ -3,7 +3,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "Workshop at SysML 2021"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+venue: "Co-located with MLSys'21 (Virtual)"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "Online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
@@ -134,52 +134,7 @@ workshop is only open to people from a particular institution.
 {% include lc/who.html %}
 {% endif %}
 
-{% comment %}
-LOCATION
 
-This block displays the address and links to maps showing directions
-if the latitude and longitude of the workshop have been set.  You
-can use https://itouchmap.com/latlong.html to find the lat/long of an
-address.
-{% endcomment %}
-{% assign begin_address = page.address | slice: 0, 4 | downcase  %}
-{% if page.address == "online" %}
-{% assign online = "true_private" %}
-{% elsif begin_address contains "http" %}
-{% assign online = "true_public" %}
-{% else %}
-{% assign online = "false" %}
-{% endif %}
-{% if page.latitude and page.longitude and online == "false" %}
-<p id="where">
-  <strong>Where:</strong>
-  {{page.address}}.
-</p>
-{% elsif online == "true_public" %}
-<p id="where">
-  <strong>Where:</strong>
-  online at <a href="{{page.address}}">{{page.address}}</a>.
-  If you need a password or other information to access the training,
-  the instructor will pass it on to you before the workshop.
-</p>
-{% elsif online == "true_private" %}
-<p id="where">
-  <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
-</p>
-{% endif %}
-
-{% comment %}
-DATE
-
-This block displays the date and links to Google Calendar.
-{% endcomment %}
-{% if page.humandate %}
-<p id="when">
-  <strong>When:</strong>
-  {{page.humandate}}.
-</p>
-{% endif %}
 
 {% comment %}
 SPECIAL REQUIREMENTS
@@ -207,112 +162,4 @@ The timeline that we are working towards is as follows:
 <p><strong>Feb 25:</strong> submission deadline for presentations</p>
 <p><strong>Mar 1:</strong> workshop program finalized</p>
 <p><strong>Apr 9:</strong> workshop held virtually</p>
-
-
-{% comment%}
-CODE OF CONDUCT
-{% endcomment %}
-
-{% comment%}
-<h2 id="code-of-conduct">CODE OF CONDUCT</h2>
-
-<p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
-</p>
-
-<p class="text-center">
-  <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
-  </a>
-</p>
-<hr/>
-{% endcomment %}
-
-
-{% comment %}
-Collaborative Notes
-
-If you want to use an Etherpad, go to
-
-https://pad.carpentries.org/YYYY-MM-DD-site
-
-where 'YYYY-MM-DD-site' is the identifier for your workshop,
-e.g., '2015-06-10-esu'.
-
-Note we also have a CodiMD (the open-source version of HackMD)
-available at https://codimd.carpentries.org
-{% endcomment %}
-{% if page.collaborative_notes %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
-
-<p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
-</p>
-<hr/>
-{% endif %}
-
-
-{% comment %}
-SETUP
-
-Delete irrelevant sections from the setup instructions.  Each
-section is inside a 'div' without any classes to make the beginning
-and end easier to find.
-
-This is the other place where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
-{% endcomment %}
-{% comment %}
-
-<h2 id="setup">Setup</h2>
-
-<p>
-  To participate in a
-  {% if site.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif site.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif site.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
-</p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
-{% endcomment %}
-
-{% comment %}
-For online workshops, the section below provides:
-- installation instructions for the Zoom client
-- recommendations for setting up Learners' workspace so they can follow along
-  the instructions and the videoconferencing
-
-If you do not use Zoom for your online workshop, edit the file
-`_includes/install_instructions/videoconferencing.html`
-to include the relevant installation instrucctions.
-{% endcomment %}
-{% if online != "false" %}
-{% include install_instructions/videoconferencing.html %}
-{% endif %}
-
-{% comment %}
-These are the installation instructions for the tools used
-during the workshop.
-{% endcomment %}
-
-{% comment %}
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% endif %}
-{% endcomment %}
 
