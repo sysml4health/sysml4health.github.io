@@ -23,7 +23,7 @@ title: "Workshop Organizers"
 
 
 
-    <div class="col-xs-4 col-md-3"> 
+  <div class="col-xs-4 col-md-3"> 
     <div class="thumbnail">
         <a href="https://vsarkar.cc.gatech.edu/">
         <img 
@@ -38,12 +38,12 @@ title: "Workshop Organizers"
         </div>
         </a>
     </div>
-    </div>
+  </div>
 
 
 
-    <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
-    <div class="col-xs-4 col-md-3"> 
+  <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
+  <div class="col-xs-4 col-md-3"> 
     <div class="thumbnail">
         <a href="https://people.eecs.berkeley.edu/~dawnsong/">
         <img 
@@ -58,12 +58,12 @@ title: "Workshop Organizers"
         </div>
         </a>
     </div>
-    </div>
+  </div>
 
 
 
-    <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
-    <div class="col-xs-4 col-md-3"> 
+  <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
+  <div class="col-xs-4 col-md-3"> 
     <div class="thumbnail">
         <a href="http://www.sunlab.org/">
         <img 
@@ -78,12 +78,12 @@ title: "Workshop Organizers"
         </div>
         </a>
     </div>
-    </div>
+  </div>
 
 
 
-    <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
-    <div class="col-xs-4 col-md-3"> 
+  <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
+  <div class="col-xs-4 col-md-3"> 
     <div class="thumbnail">
         <a href="https://www.cc.gatech.edu/~atumanov/">
         <img 
@@ -98,7 +98,7 @@ title: "Workshop Organizers"
         </div>
         </a>
     </div>
-    </div>
+  </div>
 
 </div>
 </div>
