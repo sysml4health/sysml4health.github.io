@@ -52,7 +52,7 @@ title: "Workshop Organizers"
             align="center">
         <div class="caption">
             <p align="center"><strong>Dawn Song</strong></p>
-            <p align="center">University of California Berkeley, Professor
+            <p align="center">UC Berkeley, Professor
             </p>
             <p></p>
         </div>
@@ -106,7 +106,7 @@ title: "Workshop Organizers"
 <h2 id="student voulnteers">Student Voulnteers</h2>
 <div class="container">
 <div class="row display-flex">
-	<div class="col-xs-4 col-md-3"> 
+	<div class="col-xs-4 col-md-2"> 
     <div class="thumbnail">
         <a href="https://ghjeong12.github.io/">
         <img 
@@ -123,7 +123,7 @@ title: "Workshop Organizers"
     </div>
     </div>
 
-  <div class="col-xs-4 col-md-3"> 
+  <div class="col-xs-4 col-md-2"> 
     <div class="thumbnail">
         <a href="https://www.linkedin.com/in/shreyavarshini/">
         <img 
