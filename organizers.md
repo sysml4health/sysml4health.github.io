@@ -4,6 +4,8 @@ title: "Workshop Organizers"
 ---
 <div class="container">
 <div class="row display-flex">
+  <div class="col-md-1"> 
+  </div>
 	<div class="col-xs-4 col-md-2"> 
     <div class="thumbnail">
         <a href="https://tusharkrishna.ece.gatech.edu/">
@@ -106,6 +108,8 @@ title: "Workshop Organizers"
 <h2 id="student voulnteers">Student Voulnteers</h2>
 <div class="container">
 <div class="row display-flex" >
+  <div class="col-md-1"> 
+  </div>
 	<div class="col-xs-4 col-md-2"> 
     <div class="thumbnail">
         <a href="https://ghjeong12.github.io/">
