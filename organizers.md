@@ -115,7 +115,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-            <h5 align="center">Geonhwa Jeong</h5>
+          <p align="center"><strong>Geonhwa Jeong</strong></p>
             <p align="center">Georgia Tech, PhD Student 
             </p>
             <p></p>
