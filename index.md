@@ -106,6 +106,13 @@ The goal of this workshop is to attract leading researchers to share and discuss
 
 We would like this workshop to help contribute new advances to healthcare analytics, which has the potential to result in significant benefits to society, by demonstrating how data can safely (with privacy preservation) be leveraged from distributed sources to improve the accuracy of trained ML models for various clinical tasks, how the models can be deployed in a scalable manner at all levels of the end-to-end system, and how these capabilities can help enable early warnings and rapid responses to hitherto unknown and rapidly evolving threats. Knowledge distilled from multiple sources of data can be embodied in recommendation systems that can run onsite to provide time-critical decision support to physicians. We expect principles that emerge from this workshop to be of interest to other application domains as well. 
 
+<hr/>
+<h2 id="general">Announcements</h2>
+
+<div class="alert alert-success">
+More information will be available soon. Please stay tuned!
+</div>
+
 {% comment %}
 INTRODUCTION
 
