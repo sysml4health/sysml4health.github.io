@@ -79,9 +79,8 @@ title: "Workshop Organizers"
         </a>
     </div>
   </div>
-
-
-
+</div>
+<div class="row display-flex">
   <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
   <div class="col-xs-4 col-md-3" style="float: left;"> 
     <div class="thumbnail" >
