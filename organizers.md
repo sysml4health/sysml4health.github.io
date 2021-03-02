@@ -12,7 +12,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-          <p align="center"><strong>Tushar Krishna</p>
+          <p align="center"><strong>Tushar Krishna</strong></p>
             <p align="center">Georgia Tech, Assistant Professor
             </p>
             <p></p>
@@ -31,7 +31,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-            <p align="center"><strong>Vivek Sarkar</p>
+            <p align="center"><strong>Vivek Sarkar</strong></p>
             <p align="center">Georgia Tech, Professor
             </p>
             <p></p>
@@ -51,7 +51,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-            <p align="center"><strong>Dawn Song</p>
+            <p align="center"><strong>Dawn Song</strong></p>
             <p align="center">University of California Berkeley, Professor
             </p>
             <p></p>
@@ -71,7 +71,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-            <p align="center"><strong>Jimeng Sun</p>
+            <p align="center"><strong>Jimeng Sun</strong></p>
             <p align="center">UIUC, Professor
             </p>
             <p></p>
@@ -91,7 +91,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-            <p align="center"><strong>Alexey Tumanov</p>
+            <p align="center"><strong>Alexey Tumanov</strong></p>
             <p align="center">Georgia Tech, Assistant Professor
             </p>
             <p></p>
@@ -132,7 +132,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-            <p align="center"><strong>Shreya Varshini</p>
+            <p align="center"><strong>Shreya Varshini</strong></p>
             <p align="center">Georgia Tech, Graduate Student 
             </p>
             <p></p>
