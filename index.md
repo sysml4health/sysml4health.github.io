@@ -153,13 +153,3 @@ Display the contact email address set in the configuration file.
   Please email <a href="mailto: sysml4health@gmail.com">sysml4health@gmail.com</a> 
   for more information.
 </p>
-
-<h2 id="timeline">Timeline</h2>
-The timeline that we are working towards is as follows:
-<p><strong>Jan 29:</strong> workshop proposal deadline</p>
-<p><strong>Feb 05:</strong> workshop acceptance notification:</p>
-<p><strong>Feb 09:</strong> workshop website and call for presentations published</p>
-<p><strong>Feb 25:</strong> submission deadline for presentations</p>
-<p><strong>Mar 1:</strong> workshop program finalized</p>
-<p><strong>Apr 9:</strong> workshop held virtually</p>
-
