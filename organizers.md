@@ -102,5 +102,51 @@ title: "Workshop Organizers"
 
 </div>
 </div>
+
+
+<h3 id="student voulnteers">Student Voulnteers</h3>
+<div class="container">
+<div class="row display-flex">
+	<div class="col-xs-6 col-md-4"> 
+    <div class="thumbnail">
+        <a href="https://ghjeong12.github.io/">
+        <img 
+            src="images/speakers_200x200/ghjeong.png"
+            style="width:88%"
+            align="center">
+        <div class="caption">
+            <h5 align="center">Geonhwa Jeong</h5>
+            <p align="center">Georgia Tech, PhD Student 
+            </p>
+            <p></p>
+        </div>
+        </a>
+    </div>
+    </div>
+
+
+
+    <div class="col-xs-6 col-md-4"> 
+    <div class="thumbnail">
+        <a href="https://www.linkedin.com/in/shreyavarshini/">
+        <img 
+            src="images/speakers_200x200/shreya.jpeg"
+            style="width:88%"
+            align="center">
+        <div class="caption">
+            <h5 align="center">Shreya Varshini</h5>
+            <p align="center">Georgia Tech, Graduate Student 
+            </p>
+            <p></p>
+        </div>
+        </a>
+    </div>
+    </div>
+</div>
+</div>
+
+
+
+
 <h3 id="contact"> Contact Us</h3>
 Contact us at <a href="mailto: sysml4health@gmail.com">sysml4health@gmail.com</a> for more information.
