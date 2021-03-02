@@ -105,7 +105,7 @@ title: "Workshop Organizers"
 </div>
 
 
-<h2 id="student voulnteers">Student Voulnteers</h2>
+<h2 id="student voulnteers">Student Volunteers</h2>
 <div class="container">
 <div class="row display-flex" >
   <div class="col-md-1"> 
