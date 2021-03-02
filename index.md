@@ -155,11 +155,12 @@ CONTACT EMAIL ADDRESS
 
 Display the contact email address set in the configuration file.
 {% endcomment %}
-<p id="contact">
-  <strong>Contact:</strong>
-  Please email <a href="mailto: sysml4health@gmail.com">sysml4health@gmail.com</a> 
-  for more information.
+<h2 id="contact"> Contact </h2>
+<p>
+Please email <a href="mailto: sysml4health@gmail.com">sysml4health@gmail.com</a> 
+for more information.
 </p>
+<hr/>
 
 <h2 id="timeline">Timeline</h2>
 The timeline that we are working towards is as follows:
