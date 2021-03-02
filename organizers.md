@@ -83,8 +83,8 @@ title: "Workshop Organizers"
 
 
   <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
-  <div class="col-xs-4 col-md-3"> 
-    <div class="thumbnail">
+  <div class="col-xs-4 col-md-3" style="float: left;"> 
+    <div class="thumbnail" >
         <a href="https://www.cc.gatech.edu/~atumanov/">
         <img 
             src="images/speakers_200x200/tumanov.jpg"
