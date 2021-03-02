@@ -10,7 +10,7 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Apr 9, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+# humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-04-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-04-09        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: [] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -195,11 +195,19 @@ Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact:</strong>
-  Please email sysml4health@gmail.com 
+  Please email <a href="mailto: sysml4health@gmail.com">sysml4health@gmail.com</a> 
   for more information.
 </p>
 
-<hr/>
+<h2 id="timeline">Timeline</h2>
+The timeline that we are working towards is as follows:
+<p><strong>Jan 29:</strong> workshop proposal deadline</p>
+<p><strong>Feb 05:</strong> workshop acceptance notification:</p>
+<p><strong>Feb 09:</strong> workshop website and call for presentations published</p>
+<p><strong>Feb 25:</strong> submission deadline for presentations</p>
+<p><strong>Mar 1:</strong> workshop program finalized</p>
+<p><strong>Apr 9:</strong> workshop held virtually</p>
+
 
 {% comment%}
 CODE OF CONDUCT
@@ -242,68 +250,6 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 </p>
 <hr/>
 {% endif %}
-
-
-{% comment %}
-SURVEYS - DO NOT EDIT SURVEY LINKS
-{% endcomment %}
-<h2 id="surveys">Keynote Speakers</h2>
-<ul>
-  <li> Timothy Chou <a href="https://www.linkedin.com/in/timothychou/">[linkedin]</a> </li>
-</ul>
-
-<p>
-  We are actively updating the list. Please stay tuned!
-</p>
-
-<hr/>
-
-
-{% comment %}
-SCHEDULE
-
-Show the workshop's schedule.
-
-Small changes to the schedule can be made by modifying the
-`schedule.html` found in the `_includes` folder for your
-workshop type (`swc`, `lc`, or `dc`). Edit the items and
-times in the table to match your plans. You may also want to
-change 'Day 1' and 'Day 2' to be actual dates or days of the
-week.
-
-For larger changes, a blank template for a 4-day workshop
-(useful for online teaching for instance) can be found in
-`_includes/custom-schedule.html`. Add the times, and what
-you will be teaching to this file. You may also want to add
-rows to the table if you wish to break down the schedule
-further. To use this custom schedule here, replace the block
-of code below the Schedule `<h2>` header below with
-`{% include custom-schedule.html %}`.
-{% endcomment %}
-
-<h2 id="schedule">Schedule</h2>
-{% include swc/schedule.html %}
-
-{% comment %}
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% endif %}
-{% endcomment %}
-
-<hr/>
-
-<h2> Workshop Organizers </h2>
-<ul>
-<li> Tushar Krishna (Georgia Tech) </li>
-<li> Vivek Sarkar (Georgia Tech) </li>
-<li> Dawn Song (UC Berkeley) </li>
-<li> Jimeng Sun (UIUC) </li>
-<li> Alexey Tumanov (Georgia Tech) </li>
-<hr/>
 
 
 {% comment %}
