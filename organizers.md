@@ -4,7 +4,7 @@ title: "Workshop Organizers"
 ---
 <div class="container">
 <div class="row display-flex">
-	<div class="col-xs-6 col-md-4"> 
+	<div class="col-xs-4 col-md-3"> 
     <div class="thumbnail">
         <a href="https://tusharkrishna.ece.gatech.edu/">
         <img 
@@ -12,7 +12,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-            <h5 align="center">Tushar Krishna</h5>
+          <p align="center"><strong>Tushar Krishna</p>
             <p align="center">Georgia Tech, Assistant Professor
             </p>
             <p></p>
@@ -23,7 +23,7 @@ title: "Workshop Organizers"
 
 
 
-    <div class="col-xs-6 col-md-4"> 
+    <div class="col-xs-4 col-md-3"> 
     <div class="thumbnail">
         <a href="https://vsarkar.cc.gatech.edu/">
         <img 
@@ -31,7 +31,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-            <h5 align="center">Vivek Sarkar</h5>
+            <p align="center"><strong>Vivek Sarkar</p>
             <p align="center">Georgia Tech, Professor
             </p>
             <p></p>
@@ -43,7 +43,7 @@ title: "Workshop Organizers"
 
 
     <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
-    <div class="col-xs-6 col-md-4"> 
+    <div class="col-xs-4 col-md-3"> 
     <div class="thumbnail">
         <a href="https://people.eecs.berkeley.edu/~dawnsong/">
         <img 
@@ -51,7 +51,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-            <h5 align="center">Dawn Song</h5>
+            <p align="center"><strong>Dawn Song</p>
             <p align="center">University of California Berkeley, Professor
             </p>
             <p></p>
@@ -63,7 +63,7 @@ title: "Workshop Organizers"
 
 
     <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
-    <div class="col-xs-6 col-md-4"> 
+    <div class="col-xs-4 col-md-3"> 
     <div class="thumbnail">
         <a href="http://www.sunlab.org/">
         <img 
@@ -71,7 +71,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-            <h5 align="center">Jimeng Sun</h5>
+            <p align="center"><strong>Jimeng Sun</p>
             <p align="center">UIUC, Professor
             </p>
             <p></p>
@@ -83,7 +83,7 @@ title: "Workshop Organizers"
 
 
     <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
-    <div class="col-xs-6 col-md-4"> 
+    <div class="col-xs-4 col-md-3"> 
     <div class="thumbnail">
         <a href="https://www.cc.gatech.edu/~atumanov/">
         <img 
@@ -91,7 +91,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-            <h5 align="center">Alexey Tumanov</h5>
+            <p align="center"><strong>Alexey Tumanov</p>
             <p align="center">Georgia Tech, Assistant Professor
             </p>
             <p></p>
@@ -107,11 +107,11 @@ title: "Workshop Organizers"
 <h3 id="student voulnteers">Student Voulnteers</h3>
 <div class="container">
 <div class="row display-flex">
-	<div class="col-xs-6 col-md-4"> 
+	<div class="col-xs-4 col-md-3"> 
     <div class="thumbnail">
         <a href="https://ghjeong12.github.io/">
         <img 
-            src="images/speakers_200x200/ghjeong.png"
+            src="images/speakers_200x200/geonhwa.jpg"
             style="width:88%"
             align="center">
         <div class="caption">
@@ -124,9 +124,7 @@ title: "Workshop Organizers"
     </div>
     </div>
 
-
-
-    <div class="col-xs-6 col-md-4"> 
+  <div class="col-xs-4 col-md-3"> 
     <div class="thumbnail">
         <a href="https://www.linkedin.com/in/shreyavarshini/">
         <img 
@@ -134,7 +132,7 @@ title: "Workshop Organizers"
             style="width:88%"
             align="center">
         <div class="caption">
-            <h5 align="center">Shreya Varshini</h5>
+            <p align="center"><strong>Shreya Varshini</p>
             <p align="center">Georgia Tech, Graduate Student 
             </p>
             <p></p>
