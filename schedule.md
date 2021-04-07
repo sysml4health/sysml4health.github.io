@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tentative Schedule"
+title: "Schedule"
 ---
 {% include swc/schedule.html %}
 
