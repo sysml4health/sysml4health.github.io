@@ -110,7 +110,7 @@ We would like this workshop to help contribute new advances to healthcare analyt
 <h2 id="general">Announcements</h2>
 
 <div class="alert alert-success">
-More information will be available soon. Please stay tuned!
+The workshop schedule is now complete and has been updated!
 </div>
 
 {% comment %}
