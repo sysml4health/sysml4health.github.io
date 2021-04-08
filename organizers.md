@@ -143,6 +143,38 @@ title: "Workshop Organizers"
         </a>
     </div>
     </div>
+  <div class="col-xs-4 col-md-2"> 
+    <div class="thumbnail">
+        <a href="https://www.linkedin.com/in/luis-pastrana/">
+        <img 
+            src="images/speakers_200x200/luis.jpg"
+            style="width:88%"
+            align="center">
+        <div class="caption">
+            <p align="center"><strong>Luis Pastrana</strong></p>
+            <p align="center">Georgia Tech, Graduate Student 
+            </p>
+            <p></p>
+        </div>
+        </a>
+    </div>
+    </div>
+  <div class="col-xs-4 col-md-2"> 
+    <div class="thumbnail">
+        <a href="https://www.linkedin.com/in/eric-qin-3101b193/">
+        <img 
+            src="images/speakers_200x200/eric.png"
+            style="width:88%"
+            align="center">
+        <div class="caption">
+            <p align="center"><strong>Eric Qin</strong></p>
+            <p align="center">Georgia Tech, PhD Student 
+            </p>
+            <p></p>
+        </div>
+        </a>
+    </div>
+    </div>
 </div>
 </div>
 
